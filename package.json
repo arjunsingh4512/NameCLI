@@ -12,5 +12,12 @@
     "arjun kumar singh",
     "arjun",
     "singh"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "arjun4512/nameCli",
+  "author": {
+    "name": "arjun kumar singh",
+    "email": "arjun.singh01@nagarro.com"
+  }
 }
