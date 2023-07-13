@@ -6,7 +6,8 @@
     "aks": "index.js"
   },
   "dependencies": {
-    "cli-welcome": "^2.2.2"
+    "cli-welcome": "^2.2.2",
+    "colors": "^1.4.0"
   },
   "keywords": [
     "arjun kumar singh",
