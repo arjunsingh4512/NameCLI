@@ -1,16 +1,17 @@
 #!node
 const packJson = require("./package.json");
 const welcome = require("cli-welcome");
-const { bold } = require("colors");
 const colors = require("colors/safe");
+
 const twitterColor = colors.bgBrightBlue;
 const githubColor = colors.bgBrightGreen;
 const linkedlinColor = colors.bgBrightCyan;
+
 welcome({
   title: `Get to know Arjun`,
   tagLine: `Howdy , nice to meet ya!`,
   version: packJson.version,
-  bgColor: `#fadc00`,
+  bgColor: `#0275d8	`,
   color: `#000000`,
   bold: true,
   clear: false,
@@ -39,4 +40,15 @@ ${colors.dim(
 🔗 ${linkedlinColor("Linkedlin:")} ${colors.underline(
   "https://linkedli.com/arjun.kumar.singh"
 )} 
+`);
+console.log(`
+             ${colors.bgGreen("Success:")} Thanks for the checking out my cli.
+
+             ${colors.bgBlue(
+               "info:"
+             )} I am creating a lots of nodeJs cli tools for more info connect with me through Social meadia.
+
+             ${colors.bgYellow("Warn:")}Please don't copy me. Be yourself.
+
+             ${colors.bgRed("Error:")}I'm on vacation. Contact me next week.
 `);
