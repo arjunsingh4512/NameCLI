@@ -29,26 +29,32 @@ ${colors.dim(
 )}
  
 
-🐤 ${twitterColor("Twitter:")}  ${colors.underline(
+🐤 ${twitterColor(" Twitter:   ")}  ${colors.underline(
   `https://twitter.com/arjun4512`
 )}
 
-🐈 ‍${githubColor("GitHub:")}  ${colors.underline(
+🐈 ‍${githubColor(" GitHub:    ")}  ${colors.underline(
   "https://github.com/arjun4512"
 )}
 
-🔗 ${linkedlinColor("Linkedlin:")} ${colors.underline(
+🔗 ${linkedlinColor(" Linkedlin: ")} ${colors.underline(
   "https://linkedli.com/arjun.kumar.singh"
 )} 
 `);
 console.log(`
-             ${colors.bgGreen("Success:")} Thanks for the checking out my cli.
+             ✅ ${colors.bgGreen(" Success: ")} ${colors.bold(
+  "Thanks for the checking out my cli."
+)}
 
-             ${colors.bgBlue(
-               "info:"
-             )} I am creating a lots of nodeJs cli tools for more info connect with me through Social meadia.
+              ℹ️ ${colors.bgBlue(
+                " info:    "
+              )}    I am creating a lots of nodeJs cli tools for more info connect with me through Social media.
 
-             ${colors.bgYellow("Warn:")}Please don't copy me. Be yourself.
+             ⚠️  ${colors.bgYellow(" Warn:    ")}    ${colors.bold(
+  "Please dont copy me. Be yourself."
+)}
 
-             ${colors.bgRed("Error:")}I'm on vacation. Contact me next week.
+             ❌ ${colors.bgRed(
+               " Error:   "
+             )}   I'm on vacation. Contact me next week.
 `);
