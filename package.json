@@ -1,5 +1,5 @@
 {
-  "name": "ak",
+  "name": "aks",
   "version": "1.0.2",
   "description": "Get to know arjun via `npx aks`",
   "bin": {
