@@ -1,8 +1,16 @@
 {
-  "name": "aks",
+  "name": "arjunsingh01",
   "version": "1.0.2",
   "description": "Get to know arjun via `npx aks`",
   "bin": {
     "aks": "index.js"
-  }
+  },
+  "dependencies": {
+    "cli-welcome": "^2.2.2"
+  },
+  "keywords": [
+    "arjun kumar singh",
+    "arjun",
+    "singh"
+  ]
 }

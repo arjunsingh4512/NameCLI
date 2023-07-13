@@ -1,10 +1,14 @@
 #!node
 const packJson = require("./package.json");
-console.log(`
-NAME:${packJson.name}
-VERSION:${packJson.version}
-DESC:${packJson.description}
-`);
+const welcome = require("cli-welcome");
+welcome({
+  title: `Get to know Arjun`,
+  version: packJson.version,
+  bgColor: `#fadc00`,
+  color: `#000000`,
+  bold: true,
+  clear: true,
+});
 console.log(`
 Welcome to my blog! In this post, I am thrilled to introduce myself,
 Arjun Kumar Singh, a dedicated and enthusiastic .NET developer. With 
