@@ -1,0 +1,8 @@
+{
+  "name": "arjunsingh01",
+  "version": "1.0.1",
+  "description": "Get to know arjun via `npx aks`",
+  "bin": {
+    "aks": "index.js"
+  }
+}
